@@ -111,12 +111,11 @@ for component_name, info in page_imports.items():
 print('all files downloaded              ')
 
 # --- Decompile all JS in one wakaru call ---
-# base_script_name is the main bundle loader — exclude it, include everything else
 base_script_name = basename(str(src))
+file_dest[base_script_name] = 'raw'  # ensure base script gets moved to decompiled/
 all_js_files = [
     f.replace('\\', '/')
     for f in glob_module.glob('raw/**/*.js', recursive=True)
-    if basename(f) != base_script_name
 ]
 
 print(f'decompiling {len(all_js_files)} JS files...')
