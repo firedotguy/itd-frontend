@@ -1,1 +1,0 @@
-import{u as n}from"./index-BPAoISKs.js";const t="_8p-mcWuM",c="icLk-jCA",e="oy1QaXhw",s="VwhfL5yz",o={notFound:t,title:c,description:e,link:s},r=i=>n("div",{className:o.notFound,children:[n("h1",{className:o.title,children:"404"}),n("p",{className:o.description,children:"Page not found"}),n("a",{href:"/",className:o.link,children:"Go back home"})]});export{r as NotFound};

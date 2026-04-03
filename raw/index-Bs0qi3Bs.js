@@ -1,1 +1,0 @@
-import{u as t}from"./index-BPAoISKs.js";const s="ueM92BcA",o="t5k9LKZG",i="_79QslgvH",e={about:s,title:o,description:i},r=c=>t("div",{className:e.about,children:[t("h1",{className:e.title,children:"About"}),t("p",{className:e.description,children:"This page demonstrates Preact Router navigation."})]});export{r as About};
