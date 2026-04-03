@@ -1,0 +1,1 @@
+import{b as n,y as o,a7 as r}from"./index-d9k9JBOp.js";function s(t){const e=n(i=>i.profile?.isPhoneVerified);return o(()=>{if(e){window.location.href="/";return}window.dispatchEvent(new Event(r))},[e]),null}export{s as Verification};
