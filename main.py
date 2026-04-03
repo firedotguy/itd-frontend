@@ -21,12 +21,7 @@ for script in possible_base_scripts:
         print(f'found: {script.attrs['src']}', end='')
         base_script = get(f'https://xn--d1ah4a.com{script.attrs['src']}').text
         print(f', loaded {len(base_script.splitlines())} lines')
-
-        with open(f'raw/{str(script.attrs['src']).split('assets/')[-1]}', 'w') as fl:
-            fl.write(base_script)
-
 assert base_script, 'Base script not found'
-
 
 print('extract all scripts', end='')
 scripts = set()
@@ -39,7 +34,7 @@ for script in scripts:
     with open(f'raw/{script}', 'w') as fl:
         print(f'load {script}                      ', end='\r')
         fl.write(get(f'https://xn--d1ah4a.com/assets/{script}').text)
-print('scripts loaded                 ')
+print('scripts loaded           ')
 
 print('\ndecompile', end='')
 run(['npx', '@wakaru/cli', 'unminify', 'raw/*.js', '-o', 'decompiled/', '-f'], check=True, shell=True, stdout=PIPE, stderr=PIPE)
