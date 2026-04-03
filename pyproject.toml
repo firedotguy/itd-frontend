@@ -9,4 +9,6 @@ dependencies = [
     "jsbeautifier>=1.15.4",
     "requests>=2.33.1",
     "scheduler>=0.8.11",
+    "textual>=8.2.2",
+    "textual-diff-view>=0.1.2",
 ]
