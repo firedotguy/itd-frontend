@@ -186,5 +186,3 @@ for js_file in glob_module.glob('raw/**/*.js', recursive=True):
 print(f'extracted {svg_count} SVGs')
 print('done')
 
-with open('last_check.txt', 'w') as fl:
-    fl.write(datetime.now().isoformat())
