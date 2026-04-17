@@ -1,0 +1,24 @@
+.owg8 .content {
+    padding:0
+}
+.cQeg {
+    width:700px;
+    height:100vh;
+    border-radius:36px;
+    padding:24px;
+    overflow-y:auto
+}
+@media(max-width:1173px) {
+    .cQeg {
+    width:100%;
+    padding:16px;
+    border-radius:0
+}
+
+}
+.ZF9t {
+    font-size:20px;
+    font-weight:600;
+    margin:0 0 16px;
+    color:var(--text-primary)
+}

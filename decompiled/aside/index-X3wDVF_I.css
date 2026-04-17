@@ -1,0 +1,226 @@
+.kXga {
+    position:fixed;
+    top:0;
+    right:calc(50% + var(--content-max-width) / 2 + var(--sidebar-gap) + var(--scrollbar-compensation) / 2);
+    width:var(--sidebar-width);
+    height:100vh;
+    padding:48px 0;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between
+}
+.kXga .PiNa {
+    display:flex;
+    flex-direction:column;
+    gap:24px
+}
+.kXga .NPkb {
+    display:flex;
+    align-items:center;
+    gap:12px;
+    padding:12px 16px;
+    border:none;
+    background:none;
+    color:var(--text-secondary);
+    font-size:14px;
+    font-weight:500;
+    cursor:pointer;
+    border-radius:12px;
+    transition:all .2s ease
+}
+.kXga .NPkb:hover {
+    background-color:var(--block-bg);
+    color:var(--text-primary)
+}
+.kXga .e8Et {
+    display:flex;
+    align-items:center;
+    gap:16px;
+    padding:0 16px;
+    color:var(--text-primary)
+}
+.kXga .e8Et .oYqa {
+    opacity:.3;
+    background:none;
+    border:none;
+    padding:0;
+    font:inherit;
+    color:inherit;
+    cursor:pointer;
+    transition:opacity .2s ease
+}
+.kXga .e8Et .oYqa:hover {
+    opacity:.6
+}
+.kXga .NLMt {
+    display:flex;
+    flex-direction:column;
+    margin-top:32px
+}
+.kXga .NLMt .UCVN {
+    display:flex;
+    gap:18px;
+    padding:16px;
+    border-radius:18px;
+    opacity:.5;
+    font-weight:500
+}
+.kXga .NLMt .UCVN:hover {
+    background-color:var(--block-bg)
+}
+.kXga .NLMt .UCVN.XrhO {
+    background-color:var(--block-bg);
+    opacity:1
+}
+.kXga .NLMt .j6up {
+    position:relative;
+    display:flex;
+    align-items:center;
+    justify-content:center
+}
+.kXga .NLMt .xw8W {
+    display:flex;
+    gap:18px;
+    padding:16px;
+    border-radius:18px;
+    border:none;
+    background:none;
+    font:inherit;
+    color:inherit;
+    font-weight:500;
+    opacity:.5;
+    cursor:pointer;
+    transition:all .2s ease
+}
+.kXga .NLMt .xw8W:hover {
+    background-color:var(--block-bg)
+}
+.kXga .NLMt .xw8W.RizO {
+    opacity:1
+}
+.kXga .NLMt .xw8W.RizO .GC31 {
+    animation:roul 2s ease-in-out infinite
+}
+.kXga .NLMt .xw8W.XrhO {
+    background-color:var(--block-bg);
+    opacity:1
+}
+@keyframes roul {
+    0%,to {
+    filter:drop-shadow(0 0 4px rgba(144,162,255,.2))
+}
+50% {
+    filter:drop-shadow(0 0 16px rgb(144,162,255))
+}
+
+}
+.kXga .NLMt .GC31 {
+    width:24px;
+    height:24px;
+    object-fit:contain
+}
+.kXga .NLMt .Rnfw {
+    position:absolute;
+    top:-6px;
+    right:-10px;
+    min-width:18px;
+    height:18px;
+    padding:0 5px;
+    font-size:11px;
+    font-weight:600;
+    line-height:18px;
+    text-align:center;
+    color:#fff;
+    background-color:var(--accent-like);
+    border-radius:9px
+}
+.t7OS {
+    display:flex;
+    flex-direction:column;
+    gap:8px;
+    padding:8px 24px 24px;
+    max-height:70vh;
+    overflow-y:auto
+}
+@media(max-width:1173px) {
+    .t7OS {
+    padding:8px 16px 20px;
+    max-height:80vh
+}
+
+}
+.AJJg {
+    display:flex;
+    flex-direction:column;
+    gap:12px
+}
+.xcOU {
+    display:flex;
+    align-items:center;
+    gap:12px
+}
+.qasP {
+    display:inline-flex;
+    align-items:center;
+    padding:4px 10px;
+    font-size:13px;
+    font-weight:600;
+    color:var(--accent-primary);
+    background:color-mix(in srgb,var(--accent-primary) 12%,transparent);
+    border-radius:8px;
+    letter-spacing:.02em
+}
+.CzeS {
+    font-size:13px;
+    color:var(--text-secondary)
+}
+.or3u {
+    margin:0;
+    padding-left:0;
+    list-style:none;
+    display:flex;
+    flex-direction:column;
+    gap:8px
+}
+.ZWsK {
+    position:relative;
+    padding-left:20px;
+    font-size:14px;
+    line-height:1.5;
+    color:var(--text-secondary)
+}
+.ZWsK:before {
+    content:"";
+    position:absolute;
+    left:0;
+    top:8px;
+    width:6px;
+    height:6px;
+    border-radius:50%;
+    background:var(--accent-primary);
+    opacity:.5
+}
+.uUIZ {
+    margin:0;
+    font-size:14px;
+    line-height:1.5;
+    color:var(--text-secondary)
+}
+.wcDC {
+    margin:0;
+    font-size:13px;
+    line-height:1.5;
+    color:var(--text-secondary);
+    font-weight:500
+}
+.WxVY {
+    padding:32px 0;
+    text-align:center;
+    font-size:14px;
+    color:var(--text-secondary)
+}
+.t2d0 {
+    height:1px;
+    background:var(--border-color);
+    margin:8px 0
+}

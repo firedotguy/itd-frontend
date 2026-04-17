@@ -1,0 +1,70 @@
+.OgaD {
+    max-width:800px;
+    margin:0 auto;
+    padding:40px 24px;
+    color:var(--text-primary)
+}
+.KgIN {
+    display:flex;
+    align-items:center;
+    gap:4px;
+    padding:8px 16px 8px 10px;
+    margin-bottom:16px;
+    margin-left:-16px;
+    color:var(--text-secondary);
+    font-size:14px;
+    border-radius:20px;
+    transition:color .2s ease,background .2s ease
+}
+.KgIN:hover {
+    color:var(--text-primary);
+    background:var(--bg-secondary)
+}
+.EgCt {
+    font-size:28px;
+    font-weight:600;
+    margin-bottom:8px
+}
+.sEXz {
+    font-size:14px;
+    color:var(--text-secondary);
+    margin-bottom:32px
+}
+.aUdr {
+    margin-bottom:32px
+}
+.TqoC {
+    font-size:18px;
+    font-weight:600;
+    margin-bottom:12px
+}
+.dYhu {
+    font-size:16px;
+    font-weight:600;
+    margin-top:16px;
+    margin-bottom:8px
+}
+.lOB9 {
+    font-size:14px;
+    line-height:1.6;
+    color:var(--text-secondary);
+    margin-bottom:12px
+}
+.YfMy {
+    list-style:disc;
+    padding-left:24px;
+    margin-bottom:12px
+}
+.YfMy li {
+    font-size:14px;
+    line-height:1.6;
+    color:var(--text-secondary);
+    margin-bottom:6px
+}
+.huMw {
+    color:var(--accent-color);
+    text-decoration:none
+}
+.huMw:hover {
+    text-decoration:underline
+}
